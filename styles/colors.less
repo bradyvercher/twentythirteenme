@@ -1,0 +1,126 @@
+body { color: @color-text;}
+
+a,
+.entry-content a,
+.entry-meta a,
+.attachment .entry-meta a,
+.attachment .entry-meta .edit-link:before,
+.attachment .full-size-link:before,
+.format-aside .entry-content .date { color: @color-links;}
+a:visited { color: @color-links-visited;}
+a:active,
+a:hover,
+.entry-title a:hover,
+.entry-content a:hover,
+.entry-meta a:hover,
+.format-aside .entry-content .date a:hover { color: @color-links-hover;}
+
+.site,
+.attachment .entry-content,
+.post-navigation { background-color: @color-content-bg;}
+.site-header { background-color: @color-header-bg;}
+
+.navbar { background-color: @color-main-nav-bg;}
+.nav-menu .sub-menu,
+.nav-menu .children { border-color: @color-content-bg;}
+.navbar-fixed .navbar { box-shadow: 0 2px 2px fade(darken(@color-main-nav-bg, 40%), 20%);}
+
+.nav-menu li a { color: @color-main-nav-links;}
+.nav-menu li:hover > a,
+.nav-menu li a:hover,
+.nav-menu .sub-menu,
+.nav-menu .children { color: @color-main-nav-links-hover; background-color: @color-main-nav-links-hover-bg;}
+ul.nav-menu ul a:hover,
+.nav-menu ul ul a:hover { background-color: @color-main-nav-submenu-hover-bg;}
+
+.archive-header,
+.page-header,
+.attachment .hentry { color: @color-page-header-text; background-color: @color-page-header-bg;}
+
+.entry-title,
+.entry-title a { color: @color-titles;}
+
+.navigation a { color: @color-paging-nav-links;}
+.navigation a:hover { color: @color-paging-nav-links-hover;}
+.paging-navigation { background-color: @color-paging-nav-bg;}
+.paging-navigation .meta-nav { color: @color-paging-arrows-text; background-color: @color-paging-arrows-bg;}
+.paging-navigation a:hover .meta-nav { background-color: @color-paging-arrows-bg-hover;}
+
+.site-footer { color: @color-footer-text; background-color: @color-footer-bg;}
+.site-footer a { color: @color-footer-links;}
+
+.site-footer .sidebar-container { background-color: @color-footer-widgets-bg;}
+.site-footer .widget,
+.site-footer .widget-title,
+.site-footer .widget-title a,
+.site-footer .wp-caption-text { color: @color-footer-widgets-text;}
+.site-footer .widget a { color: @color-footer-widgets-links;}
+
+/**
+ * Post Formats
+ * ----------------------------------------------------------------------------
+ */
+
+.format-aside { color: @color-format-aside-text; background-color: @color-format-aside-bg;}
+.format-aside a { color: @color-format-aside-links;}
+
+.format-audio { color: @color-format-audio-text; background-color: @color-format-audio-bg;}
+.format-audio .entry-title,
+.format-audio .entry-title a { color: @color-format-audio-title;}
+.format-audio .entry-content a,
+.format-audio .entry-meta a,
+.format-audio .entry-content a:hover,
+.format-audio .entry-meta a:hover { color: @color-format-audio-links;}
+
+.format-chat { color: @color-format-chat-text; background-color: @color-format-chat-bg;}
+.format-chat .entry-title,
+.format-chat .entry-title a { color: @color-format-chat-title;}
+.format-chat .entry-meta a,
+.format-chat .entry-content a,
+.format-chat .chat .chat-timestamp { color: @color-format-chat-links;}
+
+.format-gallery { background-color: @color-format-gallery-bg;}
+.format-gallery .entry-title,
+.format-gallery .entry-title a { color: @color-format-gallery-title;}
+.format-gallery .entry-content { color: @color-format-gallery-text;}
+.format-gallery .entry-meta a,
+.format-gallery .entry-content a { color: @color-format-gallery-links;}
+
+.format-image { color: @color-format-image-text; background-color: @color-format-image-bg;}
+.format-image .entry-title,
+.format-image .entry-title a { color: @color-format-image-title;}
+.format-image .entry-content a,
+.format-image .entry-meta a { color: @color-format-image-links;}
+
+.format-link { color: @color-format-link-text; background-color: @color-format-link-bg;}
+.format-link .entry-title,
+.format-link .entry-title a { color: @color-format-link-title;}
+
+.format-quote { background-color: @color-format-quote-bg;}
+.format-quote .entry-content { color: @color-format-quote-text;}
+.format-quote .entry-content a,
+.format-quote .entry-meta a { color: @color-format-quote-links;}
+
+.format-status { background-color: @color-format-status-bg;}
+.format-status .entry-content { color: @color-format-status-text;}
+.format-status .entry-content a { color: @color-format-status-links;}
+.format-status .entry-meta a { color: @color-format-status-meta-links;}
+
+.format-video { background-color: @color-format-video-bg;}
+.format-video .entry-title,
+.format-video .entry-title a { color: @color-format-video-title;}
+.format-video .entry-content { color: @color-format-video-text;}
+.format-video .entry-content a,
+.format-video .entry-meta a,
+.format-video .entry-content a:hover,
+.format-video .entry-meta a:hover { color: @color-format-video-links;}
+
+/**
+ * Comments
+ * ----------------------------------------------------------------------------
+ */
+
+#respond { color: @color-comment-form-text; background-color: @color-comment-form-bg;}
+#respond a { color: @color-comment-form-links;}
+.form-allowed-tags,
+.form-allowed-tags code { color: @color-form-allowed-tags;}
