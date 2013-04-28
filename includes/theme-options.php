@@ -11,86 +11,86 @@
  */
 function twentythirteenme_colors() {
 	$colors = array(
-		'header-bg'                 => array( 'default' => '#ffffff', 'label' => __( 'Header Background', 'twentythirteenme' ),                   'priority' => 20  ),
-		'page-header-bg'            => array( 'default' => '#e8e5ce', 'label' => __( 'Page/Archive Heading Background', 'twentythirteenme' ),     'priority' => 25  ),
-		'page-header-text'          => array( 'default' => '#141412', 'label' => __( 'Page/Archive Heading Text', 'twentythirteenme' ),           'priority' => 26  ),
-		'content-bg'                => array( 'default' => '#ffffff', 'label' => __( 'Content Background', 'twentythirteenme' ),                  'priority' => 35  ),
-		'text'                      => array( 'default' => '#141412', 'label' => __( 'Text', 'twentythirteenme' ),                                'priority' => 40  ),
-		'links'                     => array( 'default' => '#ca3c08', 'label' => __( 'Links', 'twentythirteenme' ),                               'priority' => 45  ),
-		'links-hover'               => array( 'default' => '#ea9629', 'label' => __( 'Links Hover', 'twentythirteenme' ),                         'priority' => 46  ),
-		'links-visited'             => array( 'default' => '#ac0404', 'label' => __( 'Links Visited', 'twentythirteenme' ),                       'priority' => 47  ),
-		'titles'                    => array( 'default' => '#141412', 'label' => __( 'Titles', 'twentythirteenme' ),                              'priority' => 50  ),
+		'header-bg'                 => array( 'default' => '#ffffff', 'label' => __( 'Header Background', 'twentythirteenme' ),                   'subsection' => __( 'Global Colors', 'twentythirteenme' ) ),
+		'page-header-bg'            => array( 'default' => '#e8e5ce', 'label' => __( 'Page Heading Background', 'twentythirteenme' ),             'subsection' => __( 'Global Colors', 'twentythirteenme' ) ),
+		'page-header-text'          => array( 'default' => '#141412', 'label' => __( 'Page Heading Text', 'twentythirteenme' ),                   'subsection' => __( 'Global Colors', 'twentythirteenme' ) ),
+		'content-bg'                => array( 'default' => '#ffffff', 'label' => __( 'Content Background', 'twentythirteenme' ),                  'subsection' => __( 'Global Colors', 'twentythirteenme' ) ),
+		'text'                      => array( 'default' => '#141412', 'label' => __( 'Text', 'twentythirteenme' ),                                'subsection' => __( 'Global Colors', 'twentythirteenme' ) ),
+		'links'                     => array( 'default' => '#ca3c08', 'label' => __( 'Links', 'twentythirteenme' ),                               'subsection' => __( 'Global Colors', 'twentythirteenme' ) ),
+		'links-hover'               => array( 'default' => '#ea9629', 'label' => __( 'Links Hover', 'twentythirteenme' ),                         'subsection' => __( 'Global Colors', 'twentythirteenme' ) ),
+		'links-visited'             => array( 'default' => '#ac0404', 'label' => __( 'Links Visited', 'twentythirteenme' ),                       'subsection' => __( 'Global Colors', 'twentythirteenme' ) ),
+		'titles'                    => array( 'default' => '#141412', 'label' => __( 'Titles', 'twentythirteenme' ),                              'subsection' => __( 'Global Colors', 'twentythirteenme' ) ),
 
-		'main-nav-bg'               => array( 'default' => '#f7f5e7', 'label' => __( 'Navigation Background', 'twentythirteenme' ),               'priority' => 60  ),
-		'main-nav-links'            => array( 'default' => '#141412', 'label' => __( 'Navigation Links', 'twentythirteenme' ),                    'priority' => 61  ),
-		'main-nav-links-hover'      => array( 'default' => '#ffffff', 'label' => __( 'Navigation Links Hover', 'twentythirteenme' ),              'priority' => 62  ),
-		'main-nav-links-hover-bg'   => array( 'default' => '#220e10', 'label' => __( 'Navigation Links Hover Background', 'twentythirteenme' ),   'priority' => 63  ),
-		'main-nav-submenu-hover-bg' => array( 'default' => '#db572f', 'label' => __( 'Navigation Submenu Hover Background', 'twentythirteenme' ), 'priority' => 64  ),
+		'main-nav-bg'               => array( 'default' => '#f7f5e7', 'label' => __( 'Navigation Background', 'twentythirteenme' ),               'subsection' => __( 'Navigation Colors', 'twentythirteenme' ) ),
+		'main-nav-links'            => array( 'default' => '#141412', 'label' => __( 'Navigation Links', 'twentythirteenme' ),                    'subsection' => __( 'Navigation Colors', 'twentythirteenme' ) ),
+		'main-nav-links-hover'      => array( 'default' => '#ffffff', 'label' => __( 'Navigation Links Hover', 'twentythirteenme' ),              'subsection' => __( 'Navigation Colors', 'twentythirteenme' ) ),
+		'main-nav-links-hover-bg'   => array( 'default' => '#220e10', 'label' => __( 'Navigation Links Hover Background', 'twentythirteenme' ),   'subsection' => __( 'Navigation Colors', 'twentythirteenme' ) ),
+		'main-nav-submenu-hover-bg' => array( 'default' => '#db572f', 'label' => __( 'Navigation Submenu Hover Background', 'twentythirteenme' ), 'subsection' => __( 'Navigation Colors', 'twentythirteenme' ) ),
 
-		'paging-nav-bg'             => array( 'default' => '#e8e5ce', 'label' => __( 'Paging Navigation Background', 'twentythirteenme' ),        'priority' => 110 ),
-		'paging-nav-links'          => array( 'default' => '#bc360a', 'label' => __( 'Paging Navigation Links', 'twentythirteenme' ),             'priority' => 111 ),
-		'paging-nav-links-hover'    => array( 'default' => '#ea9629', 'label' => __( 'Paging Navigation Links Hover', 'twentythirteenme' ),       'priority' => 112 ),
-		'paging-arrows-bg'          => array( 'default' => '#e63f2a', 'label' => __( 'Paging Arrows Background', 'twentythirteenme' ),            'priority' => 113 ),
-		'paging-arrows-bg-hover'    => array( 'default' => '#ea9629', 'label' => __( 'Paging Arrows Background Hover', 'twentythirteenme' ),      'priority' => 114 ),
-		'paging-arrows-text'        => array( 'default' => '#ffffff', 'label' => __( 'Paging Arrows Text', 'twentythirteenme' ),                  'priority' => 115 ),
+		'paging-nav-bg'             => array( 'default' => '#e8e5ce', 'label' => __( 'Paging Navigation Background', 'twentythirteenme' ),        'subsection' => __( 'Pagination Colors', 'twentythirteenme' ) ),
+		'paging-nav-links'          => array( 'default' => '#bc360a', 'label' => __( 'Paging Navigation Links', 'twentythirteenme' ),             'subsection' => __( 'Pagination Colors', 'twentythirteenme' ) ),
+		'paging-nav-links-hover'    => array( 'default' => '#ea9629', 'label' => __( 'Paging Navigation Links Hover', 'twentythirteenme' ),       'subsection' => __( 'Pagination Colors', 'twentythirteenme' ) ),
+		'paging-arrows-bg'          => array( 'default' => '#e63f2a', 'label' => __( 'Paging Arrows Background', 'twentythirteenme' ),            'subsection' => __( 'Pagination Colors', 'twentythirteenme' ) ),
+		'paging-arrows-bg-hover'    => array( 'default' => '#ea9629', 'label' => __( 'Paging Arrows Background Hover', 'twentythirteenme' ),      'subsection' => __( 'Pagination Colors', 'twentythirteenme' ) ),
+		'paging-arrows-text'        => array( 'default' => '#ffffff', 'label' => __( 'Paging Arrows Text', 'twentythirteenme' ),                  'subsection' => __( 'Pagination Colors', 'twentythirteenme' ) ),
 
-		'comment-form-bg'           => array( 'default' => '#f7f5e7', 'label' => __( 'Comment Form Background', 'twentythirteenme' ),             'priority' => 150 ),
-		'comment-form-text'         => array( 'default' => '#141412', 'label' => __( 'Comment Form Text', 'twentythirteenme' ),                   'priority' => 151 ),
-		'comment-form-links'        => array( 'default' => '#141412', 'label' => __( 'Comment Form Links', 'twentythirteenme' ),                  'priority' => 152 ),
-		'form-allowed-tags'         => array( 'default' => '#686758', 'label' => __( 'Allowed Tags Text', 'twentythirteenme' ),                   'priority' => 153 ),
+		'comment-form-bg'           => array( 'default' => '#f7f5e7', 'label' => __( 'Comment Form Background', 'twentythirteenme' ),             'subsection' => __( 'Comment Colors', 'twentythirteenme' ) ),
+		'comment-form-text'         => array( 'default' => '#141412', 'label' => __( 'Comment Form Text', 'twentythirteenme' ),                   'subsection' => __( 'Comment Colors', 'twentythirteenme' ) ),
+		'comment-form-links'        => array( 'default' => '#141412', 'label' => __( 'Comment Form Links', 'twentythirteenme' ),                  'subsection' => __( 'Comment Colors', 'twentythirteenme' ) ),
+		'form-allowed-tags'         => array( 'default' => '#686758', 'label' => __( 'Allowed Tags Text', 'twentythirteenme' ),                   'subsection' => __( 'Comment Colors', 'twentythirteenme' ) ),
 
-		'footer-bg'                 => array( 'default' => '#e8e5ce', 'label' => __( 'Footer Background', 'twentythirteenme' ),                   'priority' => 200 ),
-		'footer-text'               => array( 'default' => '#686758', 'label' => __( 'Footer Text', 'twentythirteenme' ),                         'priority' => 201 ),
-		'footer-links'              => array( 'default' => '#686758', 'label' => __( 'Footer Links', 'twentythirteenme' ),                        'priority' => 202 ),
+		'footer-bg'                 => array( 'default' => '#e8e5ce', 'label' => __( 'Footer Background', 'twentythirteenme' ),                   'subsection' => __( 'Footer Colors', 'twentythirteenme' ) ),
+		'footer-text'               => array( 'default' => '#686758', 'label' => __( 'Footer Text', 'twentythirteenme' ),                         'subsection' => __( 'Footer Colors', 'twentythirteenme' ) ),
+		'footer-links'              => array( 'default' => '#686758', 'label' => __( 'Footer Links', 'twentythirteenme' ),                        'subsection' => __( 'Footer Colors', 'twentythirteenme' ) ),
 
-		'footer-widgets-bg'         => array( 'default' => '#220e10', 'label' => __( 'Footer Widgets Background', 'twentythirteenme' ),           'priority' => 210 ),
-		'footer-widgets-text'       => array( 'default' => '#ffffff', 'label' => __( 'Footer Widgets Text', 'twentythirteenme' ),                 'priority' => 211 ),
-		'footer-widgets-links'      => array( 'default' => '#e6402a', 'label' => __( 'Footer Widgets Links', 'twentythirteenme' ),                'priority' => 212 ),
+		'footer-widgets-bg'         => array( 'default' => '#220e10', 'label' => __( 'Footer Widgets Background', 'twentythirteenme' ),           'subsection' => __( 'Footer Colors', 'twentythirteenme' ) ),
+		'footer-widgets-text'       => array( 'default' => '#ffffff', 'label' => __( 'Footer Widgets Text', 'twentythirteenme' ),                 'subsection' => __( 'Footer Colors', 'twentythirteenme' ) ),
+		'footer-widgets-links'      => array( 'default' => '#e6402a', 'label' => __( 'Footer Widgets Links', 'twentythirteenme' ),                'subsection' => __( 'Footer Colors', 'twentythirteenme' ) ),
 
 		// Post formats.
-		
-		'format-aside-bg'           => array( 'default' => '#f7f5e7', 'label' => __( 'Background', 'twentythirteenme' ), 'priority' => 20, 'section' => 'format_aside' ),
-		'format-aside-text'         => array( 'default' => '#141412', 'label' => __( 'Text', 'twentythirteenme' ),       'priority' => 25, 'section' => 'format_aside' ),
-		'format-aside-links'        => array( 'default' => '#ca3c08', 'label' => __( 'Links', 'twentythirteenme' ),      'priority' => 30, 'section' => 'format_aside' ),
 
-		'format-audio-bg'           => array( 'default' => '#db572f', 'label' => __( 'Background', 'twentythirteenme' ), 'priority' => 20, 'section' => 'format_audio' ),
-		'format-audio-title'        => array( 'default' => '#141412', 'label' => __( 'Title', 'twentythirteenme' ),      'priority' => 25, 'section' => 'format_audio' ),
-		'format-audio-text'         => array( 'default' => '#141412', 'label' => __( 'Text', 'twentythirteenme' ),       'priority' => 30, 'section' => 'format_audio' ),
-		'format-audio-links'        => array( 'default' => '#fbfaf3', 'label' => __( 'Links', 'twentythirteenme' ),      'priority' => 35, 'section' => 'format_audio' ),
+		'format-aside-bg'           => array( 'default' => '#f7f5e7', 'label' => __( 'Background', 'twentythirteenme' ), 'section' => 'format_colors', 'subsection' => __( 'Aside Colors', 'twentythirteenme' ) ),
+		'format-aside-text'         => array( 'default' => '#141412', 'label' => __( 'Text', 'twentythirteenme' ),       'section' => 'format_colors', 'subsection' => __( 'Aside Colors', 'twentythirteenme' ) ),
+		'format-aside-links'        => array( 'default' => '#ca3c08', 'label' => __( 'Links', 'twentythirteenme' ),      'section' => 'format_colors', 'subsection' => __( 'Aside Colors', 'twentythirteenme' ) ),
 
-		'format-chat-bg'            => array( 'default' => '#eadaa6', 'label' => __( 'Background', 'twentythirteenme' ), 'priority' => 20, 'section' => 'format_chat' ),
-		'format-chat-title'         => array( 'default' => '#141412', 'label' => __( 'Title', 'twentythirteenme' ),      'priority' => 25, 'section' => 'format_chat' ),
-		'format-chat-text'          => array( 'default' => '#141412', 'label' => __( 'Text', 'twentythirteenme' ),       'priority' => 30, 'section' => 'format_chat' ),
-		'format-chat-links'         => array( 'default' => '#722d19', 'label' => __( 'Links', 'twentythirteenme' ),      'priority' => 35, 'section' => 'format_chat' ),
+		'format-audio-bg'           => array( 'default' => '#db572f', 'label' => __( 'Background', 'twentythirteenme' ), 'section' => 'format_colors', 'subsection' => __( 'Audio Colors', 'twentythirteenme' ) ),
+		'format-audio-title'        => array( 'default' => '#141412', 'label' => __( 'Title', 'twentythirteenme' ),      'section' => 'format_colors', 'subsection' => __( 'Audio Colors', 'twentythirteenme' ) ),
+		'format-audio-text'         => array( 'default' => '#141412', 'label' => __( 'Text', 'twentythirteenme' ),       'section' => 'format_colors', 'subsection' => __( 'Audio Colors', 'twentythirteenme' ) ),
+		'format-audio-links'        => array( 'default' => '#fbfaf3', 'label' => __( 'Links', 'twentythirteenme' ),      'section' => 'format_colors', 'subsection' => __( 'Audio Colors', 'twentythirteenme' ) ),
 
-		'format-gallery-bg'         => array( 'default' => '#fbca3c', 'label' => __( 'Background', 'twentythirteenme' ), 'priority' => 20, 'section' => 'format_gallery' ),
-		'format-gallery-title'      => array( 'default' => '#141412', 'label' => __( 'Title', 'twentythirteenme' ),      'priority' => 25, 'section' => 'format_gallery' ),
-		'format-gallery-text'       => array( 'default' => '#141412', 'label' => __( 'Text', 'twentythirteenme' ),       'priority' => 30, 'section' => 'format_gallery' ),
-		'format-gallery-links'      => array( 'default' => '#722d19', 'label' => __( 'Links', 'twentythirteenme' ),      'priority' => 35, 'section' => 'format_gallery' ),
+		'format-chat-bg'            => array( 'default' => '#eadaa6', 'label' => __( 'Background', 'twentythirteenme' ), 'section' => 'format_colors', 'subsection' => __( 'Chat Colors', 'twentythirteenme' ) ),
+		'format-chat-title'         => array( 'default' => '#141412', 'label' => __( 'Title', 'twentythirteenme' ),      'section' => 'format_colors', 'subsection' => __( 'Chat Colors', 'twentythirteenme' ) ),
+		'format-chat-text'          => array( 'default' => '#141412', 'label' => __( 'Text', 'twentythirteenme' ),       'section' => 'format_colors', 'subsection' => __( 'Chat Colors', 'twentythirteenme' ) ),
+		'format-chat-links'         => array( 'default' => '#722d19', 'label' => __( 'Links', 'twentythirteenme' ),      'section' => 'format_colors', 'subsection' => __( 'Chat Colors', 'twentythirteenme' ) ),
 
-		'format-image-bg'           => array( 'default' => '#ffffff', 'label' => __( 'Background', 'twentythirteenme' ), 'priority' => 20, 'section' => 'format_image' ),
-		'format-image-title'        => array( 'default' => '#141412', 'label' => __( 'Title', 'twentythirteenme' ),      'priority' => 25, 'section' => 'format_image' ),
-		'format-image-text'         => array( 'default' => '#141412', 'label' => __( 'Text', 'twentythirteenme' ),       'priority' => 30, 'section' => 'format_image' ),
-		'format-image-links'        => array( 'default' => '#ca3c08', 'label' => __( 'Links', 'twentythirteenme' ),      'priority' => 35, 'section' => 'format_image' ),
+		'format-gallery-bg'         => array( 'default' => '#fbca3c', 'label' => __( 'Background', 'twentythirteenme' ), 'section' => 'format_colors', 'subsection' => __( 'Gallery Colors', 'twentythirteenme' ) ),
+		'format-gallery-title'      => array( 'default' => '#141412', 'label' => __( 'Title', 'twentythirteenme' ),      'section' => 'format_colors', 'subsection' => __( 'Gallery Colors', 'twentythirteenme' ) ),
+		'format-gallery-text'       => array( 'default' => '#141412', 'label' => __( 'Text', 'twentythirteenme' ),       'section' => 'format_colors', 'subsection' => __( 'Gallery Colors', 'twentythirteenme' ) ),
+		'format-gallery-links'      => array( 'default' => '#722d19', 'label' => __( 'Links', 'twentythirteenme' ),      'section' => 'format_colors', 'subsection' => __( 'Gallery Colors', 'twentythirteenme' ) ),
 
-		'format-link-bg'            => array( 'default' => '#f7f5e7', 'label' => __( 'Background', 'twentythirteenme' ), 'priority' => 20, 'section' => 'format_link' ),
-		'format-link-title'         => array( 'default' => '#bc360a', 'label' => __( 'Title', 'twentythirteenme' ),      'priority' => 25, 'section' => 'format_link' ),
-		'format-link-text'          => array( 'default' => '#141412', 'label' => __( 'Text', 'twentythirteenme' ),       'priority' => 30, 'section' => 'format_link' ),
-		'format-link-links'         => array( 'default' => '#ca3c08', 'label' => __( 'Links', 'twentythirteenme' ),      'priority' => 35, 'section' => 'format_link' ),
+		'format-image-bg'           => array( 'default' => '#ffffff', 'label' => __( 'Background', 'twentythirteenme' ), 'section' => 'format_colors', 'subsection' => __( 'Image Colors', 'twentythirteenme' ) ),
+		'format-image-title'        => array( 'default' => '#141412', 'label' => __( 'Title', 'twentythirteenme' ),      'section' => 'format_colors', 'subsection' => __( 'Image Colors', 'twentythirteenme' ) ),
+		'format-image-text'         => array( 'default' => '#141412', 'label' => __( 'Text', 'twentythirteenme' ),       'section' => 'format_colors', 'subsection' => __( 'Image Colors', 'twentythirteenme' ) ),
+		'format-image-links'        => array( 'default' => '#ca3c08', 'label' => __( 'Links', 'twentythirteenme' ),      'section' => 'format_colors', 'subsection' => __( 'Image Colors', 'twentythirteenme' ) ),
 
-		'format-quote-bg'           => array( 'default' => '#210d10', 'label' => __( 'Background', 'twentythirteenme' ), 'priority' => 20, 'section' => 'format_quote' ),
-		'format-quote-text'         => array( 'default' => '#f7f5e7', 'label' => __( 'Text', 'twentythirteenme' ),       'priority' => 25, 'section' => 'format_quote' ),
-		'format-quote-links'        => array( 'default' => '#e63f2a', 'label' => __( 'Links', 'twentythirteenme' ),      'priority' => 30, 'section' => 'format_quote' ),
+		'format-link-bg'            => array( 'default' => '#f7f5e7', 'label' => __( 'Background', 'twentythirteenme' ), 'section' => 'format_colors', 'subsection' => __( 'Link Colors', 'twentythirteenme' ) ),
+		'format-link-title'         => array( 'default' => '#bc360a', 'label' => __( 'Title', 'twentythirteenme' ),      'section' => 'format_colors', 'subsection' => __( 'Link Colors', 'twentythirteenme' ) ),
+		'format-link-text'          => array( 'default' => '#141412', 'label' => __( 'Text', 'twentythirteenme' ),       'section' => 'format_colors', 'subsection' => __( 'Link Colors', 'twentythirteenme' ) ),
+		'format-link-links'         => array( 'default' => '#ca3c08', 'label' => __( 'Links', 'twentythirteenme' ),      'section' => 'format_colors', 'subsection' => __( 'Link Colors', 'twentythirteenme' ) ),
 
-		'format-status-bg'          => array( 'default' => '#722d19', 'label' => __( 'Background', 'twentythirteenme' ), 'priority' => 20, 'section' => 'format_status' ),
-		'format-status-text'        => array( 'default' => '#f7f5e7', 'label' => __( 'Text', 'twentythirteenme' ),       'priority' => 25, 'section' => 'format_status' ),
-		'format-status-links'       => array( 'default' => '#eadaa6', 'label' => __( 'Links', 'twentythirteenme' ),      'priority' => 30, 'section' => 'format_status' ),
-		'format-status-meta-links'  => array( 'default' => '#f7f5e7', 'label' => __( 'Meta Links', 'twentythirteenme' ), 'priority' => 35, 'section' => 'format_status' ),
+		'format-quote-bg'           => array( 'default' => '#210d10', 'label' => __( 'Background', 'twentythirteenme' ), 'section' => 'format_colors', 'subsection' => __( 'Quote Colors', 'twentythirteenme' ) ),
+		'format-quote-text'         => array( 'default' => '#f7f5e7', 'label' => __( 'Text', 'twentythirteenme' ),       'section' => 'format_colors', 'subsection' => __( 'Quote Colors', 'twentythirteenme' ) ),
+		'format-quote-links'        => array( 'default' => '#e63f2a', 'label' => __( 'Links', 'twentythirteenme' ),      'section' => 'format_colors', 'subsection' => __( 'Quote Colors', 'twentythirteenme' ) ),
 
-		'format-video-bg'           => array( 'default' => '#db572f', 'label' => __( 'Background', 'twentythirteenme' ), 'priority' => 20, 'section' => 'format_video' ),
-		'format-video-title'        => array( 'default' => '#141412', 'label' => __( 'Title', 'twentythirteenme' ),      'priority' => 25, 'section' => 'format_video' ),
-		'format-video-text'         => array( 'default' => '#220e10', 'label' => __( 'Text', 'twentythirteenme' ),       'priority' => 30, 'section' => 'format_video' ),
-		'format-video-links'        => array( 'default' => '#fbfaf3', 'label' => __( 'Links', 'twentythirteenme' ),      'priority' => 35, 'section' => 'format_video' ),
+		'format-status-bg'          => array( 'default' => '#722d19', 'label' => __( 'Background', 'twentythirteenme' ), 'section' => 'format_colors', 'subsection' => __( 'Status Colors', 'twentythirteenme' ) ),
+		'format-status-text'        => array( 'default' => '#f7f5e7', 'label' => __( 'Text', 'twentythirteenme' ),       'section' => 'format_colors', 'subsection' => __( 'Status Colors', 'twentythirteenme' ) ),
+		'format-status-links'       => array( 'default' => '#eadaa6', 'label' => __( 'Links', 'twentythirteenme' ),      'section' => 'format_colors', 'subsection' => __( 'Status Colors', 'twentythirteenme' ) ),
+		'format-status-meta-links'  => array( 'default' => '#f7f5e7', 'label' => __( 'Meta Links', 'twentythirteenme' ), 'section' => 'format_colors', 'subsection' => __( 'Status Colors', 'twentythirteenme' ) ),
+
+		'format-video-bg'           => array( 'default' => '#db572f', 'label' => __( 'Background', 'twentythirteenme' ), 'section' => 'format_colors', 'subsection' => __( 'Video Colors', 'twentythirteenme' ) ),
+		'format-video-title'        => array( 'default' => '#141412', 'label' => __( 'Title', 'twentythirteenme' ),      'section' => 'format_colors', 'subsection' => __( 'Video Colors', 'twentythirteenme' ) ),
+		'format-video-text'         => array( 'default' => '#220e10', 'label' => __( 'Text', 'twentythirteenme' ),       'section' => 'format_colors', 'subsection' => __( 'Video Colors', 'twentythirteenme' ) ),
+		'format-video-links'        => array( 'default' => '#fbfaf3', 'label' => __( 'Links', 'twentythirteenme' ),      'section' => 'format_colors', 'subsection' => __( 'Video Colors', 'twentythirteenme' ) ),
 	);
 
 	return apply_filters( 'twentythirteenme_colors', $colors );
@@ -104,53 +104,33 @@ function twentythirteenme_customize_register( $manager ) {
 
 	if ( ! empty( $colors ) && is_array( $colors ) ) {
 		// Register sections.
-		$manager->add_section( 'format_aside', array(
-			'title'    => __( 'Aside Format', 'twentythirteenme' ),
+		$manager->add_section( 'format_colors', array(
+			'title'    => __( 'Post Format Colors', 'twentythirteenme' ),
 			'priority' => 45,
 		) );
 
-		$manager->add_section( 'format_audio', array(
-			'title'    => __( 'Audio Format', 'twentythirteenme' ),
-			'priority' => 46,
-		) );
+		$priority = 10;
+		$subsection_key = '';
 
-		$manager->add_section( 'format_chat', array(
-			'title'    => __( 'Chat Format', 'twentythirteenme' ),
-			'priority' => 47,
-		) );
-
-		$manager->add_section( 'format_gallery', array(
-			'title'    => __( 'Gallery Format', 'twentythirteenme' ),
-			'priority' => 48,
-		) );
-
-		$manager->add_section( 'format_image', array(
-			'title'    => __( 'Image Format', 'twentythirteenme' ),
-			'priority' => 49,
-		) );
-
-		$manager->add_section( 'format_link', array(
-			'title'    => __( 'Link Format', 'twentythirteenme' ),
-			'priority' => 50,
-		) );
-
-		$manager->add_section( 'format_quote', array(
-			'title'    => __( 'Quote Format', 'twentythirteenme' ),
-			'priority' => 51,
-		) );
-
-		$manager->add_section( 'format_status', array(
-			'title'    => __( 'Status Format', 'twentythirteenme' ),
-			'priority' => 52,
-		) );
-
-		$manager->add_section( 'format_video', array(
-			'title'    => __( 'Video Format', 'twentythirteenme' ),
-			'priority' => 53,
-		) );
-
-		// Register settings.
 		foreach ( $colors as $key => $color ) {
+			// Register subsections.
+			if ( ! empty( $color['subsection'] ) && sanitize_key( $color['subsection'] ) != $subsection_key ) {
+				$subsection_key = sanitize_key( $color['subsection'] );
+
+				$manager->add_setting( 'twentythirteenme_dividers', array(
+					'type'       => 'option',
+					'capability' => 'edit_theme_options',
+				) );
+
+				$manager->add_control( new TwentyThirteenME_Customize_Subsection_Control( $manager, 'twentythirteenme_dividers_' . $subsection_key, array(
+					'label'    => $color['subsection'],
+					'section'  => ( empty( $color['section'] ) ) ? 'colors' : $color['section'],
+					'settings' => 'twentythirteenme_dividers',
+					'priority' => $priority - 1,
+				) ) );
+			}
+
+			// Register settings.
 			$id = sanitize_key( $key );
 
 			$manager->add_setting( 'twentythirteenme_colors[' . $id . ']', array(
@@ -165,8 +145,10 @@ function twentythirteenme_customize_register( $manager ) {
 				'section'  => ( empty( $color['section'] ) ) ? 'colors' : $color['section'],
 				'settings' => 'twentythirteenme_colors[' . $id . ']',
 				'type'     => 'color',
-				'priority' => ( ! empty( $color['priority'] ) ) ? $color['priority'] : 10,
+				'priority' => ( ! empty( $color['priority'] ) ) ? $color['priority'] : $priority,
 			) ) );
+
+			$priority += 10;
 		}
 	}
 }
@@ -202,3 +184,80 @@ function twentythirteenme_register_less_vars() {
 	do_action( 'twentythirteenme_register_less_vars' );
 }
 add_action( 'wp_loaded', 'twentythirteenme_register_less_vars', 20 );
+
+/**
+ * Theme Customizer textarea control.
+ *
+ * @package AudioTheme_Framework
+ * @subpackage Settings
+ *
+ * @since 1.1.0
+ */
+class TwentyThirteenME_Customize_Subsection_Control extends WP_Customize_Control {
+	/**
+	 * @access public
+	 * @var string
+	 */
+	public $type = 'subsection';
+
+	/**
+	 * @access public
+	 * @var int
+	 */
+	public $label = '';
+
+	/**
+	 * Constructor.
+	 *
+	 * Overrides the parent constructor to add an action to print custom styles for the subsection headings, then calls the parent constructor to continue setup.
+	 *
+	 * @since 1.1.0
+	 *
+	 * @param WP_Customize_Manager $manager
+	 * @param string $id
+	 * @param array $args
+	 */
+	public function __construct( $manager, $id, $args = array() ) {
+		$this->label = ( isset( $args['label'] ) ) ? esc_html( $args['label'] ) : '';
+		parent::__construct( $manager, $id, $args );
+
+		if ( ! has_action( 'customize_controls_print_styles', array( $this, 'styles' ) ) ) {
+			add_action( 'customize_controls_print_styles', array( $this, 'styles' ) );
+		}
+	}
+
+	/**
+	 * Render the control's content.
+	 *
+	 * @since 1.1.0
+	 */
+	public function render_content() {
+		?>
+		<div class="twentythirteenme-customize-subsection"><?php echo $this->label; ?></div>
+		<?php
+	}
+
+	/**
+	 * Print custom styles for displaying subsections.
+	 *
+	 * @since 1.1.0
+	 */
+	public function styles() {
+		?>
+		<style type="text/css">
+		.customize-control-subsection:first-child {
+			margin-top: -10px;
+		}
+		.customize-control-subsection:first-child .twentythirteenme-customize-subsection {
+			margin-top: 0;
+		}
+		.twentythirteenme-customize-subsection {
+			margin: 5px -20px;
+			padding: 8px 20px;
+			font-weight: bold;
+			background: #eaeaea;
+		}
+		</style>
+		<?php
+	}
+}
